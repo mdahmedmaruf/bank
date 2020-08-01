@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" />
+	<script defer src="app.js"></script>
+	<title>Bank</title>
+</head>
+
+<body>
+	<section class="login-section">
+		<div class="container">
+			<div class="row input-elements">
+				<div class="col-md 12">
+					<h2>Welcome to our Bank</h2>
+					<h3>Login In</h3>
+					<input class="form-control" type="email" name="" id="email-id" placeholder="Email Address">
+					<input class="form-control" type="password" name="" id="password" placeholder="Password">
+					<button id="enter-button" class="btn btn-link">Enter to Transaction</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="transaction-section">
+		<div class="container">
+			<h2>Transaction Area</h2>
+			<div class="row transaction-result">
+				<div class="col-md-4">
+					<div class="deposit-amount">
+						<h4>Deposit</h4>
+						<h2>$ <span id="current-deposit">00</span></h2>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="withdraw-amount">
+						<h4>Withdraw</h4>
+						<h2>$ <span id="current-withdraw">00</span></h2>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="total-amount">
+						<h4>Total Amount</h4>
+						<h2>$ <span id="current-balance">1200</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row transaction-inputs">
+				<div class="col-md-6">
+					<div class="deposit-transaction">
+						<h4>Deposit</h4>
+						<input type="text" name="" class="form-control" id="desposits"
+							placeholder="$ amount you want to desposit">
+						<button id="deposit-button" class="btn btn-success">Deposit</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="withdraw-transaction">
+						<h4>Withdraw</h4>
+						<input type="text" name="" class="form-control" id="withdraws"
+							placeholder="$ amount you want to withdraw">
+						<button id="withdraw-button" class="btn btn-success">Withdraw</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

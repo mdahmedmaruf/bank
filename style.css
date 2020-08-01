@@ -1,0 +1,95 @@
+body {
+	font-family: "Mulish", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f3f3fb;
+}
+
+.login-section {
+	height: 100vh;
+}
+
+.input-elements {
+	width: 60%;
+	margin: 50% auto auto;
+	background-color: #fff;
+	box-shadow: 8px 8px 12px rgba(60, 78, 106, 0.4);
+	border-radius: 5px;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 40px 60px 60px;
+	box-sizing: border-box;
+}
+
+.input-elements input {
+	margin: 10px 0;
+	border: 2px solid #999eac;
+	text-align: center;
+	font-size: 14px;
+}
+
+.btn-link {
+	background-color: transparent;
+	width: 100%;
+	border: 2px solid #967994;
+	color: #967994;
+}
+
+.deposit-amount {
+	background-color: tomato;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 8px 5px 12px rgba(60, 78, 106, 0.4);
+	color: #ffffff;
+}
+
+.withdraw-amount {
+	background-color: tomato;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 8px 5px 12px rgba(60, 78, 106, 0.4);
+	color: #ffffff;
+}
+
+.total-amount {
+	background-color: tomato;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 8px 5px 12px rgba(60, 78, 106, 0.4);
+	color: #ffffff;
+}
+
+.deposit-transaction {
+	background-color: #f85837;
+	color: #ffffff;
+	padding: 60px 30px;
+	border-radius: 5px;
+	box-shadow: 8px 5px 12px rgba(60, 78, 106, 0.4);
+}
+
+.deposit-transaction input {
+	border: 0;
+	margin-bottom: 10px;
+}
+
+.withdraw-transaction {
+	background-color: #3c4e6a;
+	color: #ffffff;
+	padding: 60px 30px;
+	border-radius: 5px;
+	box-shadow: 8px 5px 12px rgba(60, 78, 106, 0.4);
+}
+
+.withdraw-transaction input {
+	border: 0;
+	margin-bottom: 10px;
+}
+
+.transaction-section {
+	height: 100vh;
+	display: none;
+}
+
+.transaction-result {
+	margin-bottom: 40px;
+}
